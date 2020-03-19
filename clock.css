@@ -1,0 +1,73 @@
+/* 数字字体 */
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #282C34;
+}
+
+/* .background {
+    float: left;
+    height: 50%;
+    margin-bottom: -120px;
+} */
+
+.content {
+    position: absolute;
+    padding: 50px 0 20px 0;
+    height: auto;
+    width: 350px;
+    background-color: #ecf0f1;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#timer {
+    position: relative;
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 2em;
+}
+
+[type = button] {
+    margin: 0;
+    padding: 0;
+    border: 1px solid transparent;
+    outline: none;
+    display: block;
+    position: relative;
+    margin: 20px auto;
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(to bottom right,#7F00FF,#E100FF);
+    border-radius: 50vw;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    /* overflow: hidden; */
+    /* transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
+    transition: 0.2s;
+}
+
+[type = button]:hover {
+    color: #E100FF;
+}
+
+[type = button]:active {
+    transform: scale(0.96);
+    transition: ease-in-out;
+}
